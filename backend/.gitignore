@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# OS / Editor files
+.DS_Store
+.vSCode/
+.idea/
+
+# Testing folder
+testing_py/
