@@ -1,5 +1,4 @@
 import qrcode
-
 def generate_qr_image(data: str):
     qr = qrcode.QRCode(
         version=None,
@@ -11,8 +10,8 @@ def generate_qr_image(data: str):
     return qr.make_image(fill_color="black", back_color="white")
 
 #1
-def generate_qr_url(text: str):
-    return generate_qr_image(text)
+def generate_qr_url(data: str):
+    return generate_qr_image(data)
 
 #2
 def generate_qr_mail(email: str):

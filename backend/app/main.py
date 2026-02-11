@@ -14,7 +14,6 @@ app.include_router(mail_router,prefix="/api/v1/qr")
 app.include_router(wifi_router, prefix="/api/v1/qr")
 
 
-
 @app.get("/healthz")
 def health():
     return {"status": "ok"}

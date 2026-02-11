@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import StreamingResponse
 import io
-
+from app.schemas.url_schema import url_s
 from app.services.qr import generate_qr_url
 
 router = APIRouter(
@@ -23,7 +23,7 @@ def create_image_response(img):
     response_description="PNG image of generated QR code"
 )
 def generate_url_qr(
-    url: str = Query(..., description="Valid URL to encode in QR")
+    url: url_s = Query(..., description="Valid URL to encode in QR")
 ):
     try:
         img = generate_qr_url(url)
