@@ -1,4 +1,4 @@
 from pydantic import BaseModel, HttpUrl
 
-class url_s(BaseModel):
+class UrlRequest(BaseModel):
     url:HttpUrl

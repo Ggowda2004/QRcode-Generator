@@ -1,4 +1,4 @@
 from pydantic import BaseModel,EmailStr
 
-class mail_s(BaseModel):
-    url:EmailStr
+class MailRequest(BaseModel):
+    email:EmailStr

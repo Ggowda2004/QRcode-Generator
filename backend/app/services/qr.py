@@ -32,6 +32,6 @@ def generate_qr_wifi(security: WifiSecurity, ssid: str, password: str |None=None
         wifi_link= f"WIFI:S:{ssid};T:nopass;;"
     else:
         password = escape_wifi(password or "")
-        wifi_link=f"WIFI:S:{ssid};T:{security};P:{password};;"
+        wifi_link=f"WIFI:S:{ssid};T:{security.value};P:{password};;"
 
     return generate_qr_image(wifi_link)

@@ -1,25 +1,17 @@
-from fastapi import APIRouter, HTTPException, Query
-from fastapi.responses import StreamingResponse
-import io
-from app.schemas.mail_schema import mail_s
+from fastapi import APIRouter, HTTPException
+from app.schemas.mail_schema import MailRequest
 from app.services.qr import generate_qr_mail
+from app.utils.image import create_image_response
 
 router = APIRouter(
     prefix="/mail",
     tags=["QR - mail"]
 )
 
-def create_image_response(img):
-    buffer = io.BytesIO()
-    img.save(buffer, format="PNG")
-    buffer.seek(0)
-    return StreamingResponse(buffer, media_type="image/png")
-
-
 @router.post("", summary="Generate QR code for mail", response_description="PNG image of generated QR code")
-def generate_mail_qr(mail:mail_s):
+def generate_mail_qr(email:MailRequest):
     try:
-        img = generate_qr_mail(mail)
+        img = generate_qr_mail(email)
         return create_image_response(img)
     except Exception as e:
         raise HTTPException(
