@@ -17,14 +17,12 @@ def create_image_response(img):
     return StreamingResponse(buffer, media_type="image/png")
 
 
-@router.get(
+@router.post(
     "",
     summary="Generate QR code for a URL",
     response_description="PNG image of generated QR code"
 )
-def generate_url_qr(
-    url: url_s = Query(..., description="Valid URL to encode in QR")
-):
+def generate_url_qr(url: url_s):
     try:
         img = generate_qr_url(url)
         return create_image_response(img)

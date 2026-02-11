@@ -1,4 +1,5 @@
 import qrcode
+from app.schemas.wifi_schema import WifiSecurity
 def generate_qr_image(data: str):
     qr = qrcode.QRCode(
         version=None,
@@ -24,14 +25,13 @@ def escape_wifi(value: str) -> str:
     for char in ["\\", ";", ",", ":", '"']:
         value = value.replace(char, f"\\{char}")
     return value
-def generate_qr_wifi(security: str, ssid: str, password: str=""):
+def generate_qr_wifi(security: WifiSecurity, ssid: str, password: str |None=None):
     ssid = escape_wifi(ssid)
-    password=escape_wifi(password)
 
-    security=security.upper()
-    if security=="NOPASS":
+    if security == WifiSecurity.NOPASS:
         wifi_link= f"WIFI:S:{ssid};T:nopass;;"
     else:
+        password = escape_wifi(password or "")
         wifi_link=f"WIFI:S:{ssid};T:{security};P:{password};;"
 
     return generate_qr_image(wifi_link)
