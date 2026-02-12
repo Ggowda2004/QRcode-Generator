@@ -3,6 +3,7 @@ from app.api.url import router as url_router
 from app.api.mail import router as mail_router
 from app.api.wifi import router as wifi_router
 from app.utils.logger import logger
+from app.api.vcard import router as vcard_router
 app = FastAPI()
 
 @app.middleware("http")
@@ -20,6 +21,8 @@ app.include_router(url_router, prefix="/api/v1/qr")
 app.include_router(mail_router,prefix="/api/v1/qr")
 
 app.include_router(wifi_router, prefix="/api/v1/qr")
+
+app.include_router(vcard_router , prefix="/api/v1/qr")
 
 
 @app.get("/")

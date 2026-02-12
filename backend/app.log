@@ -1,0 +1,8 @@
+2026-02-12 16:39:17,693 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 16:39:17,833 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-12 16:39:25,286 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 16:39:25,419 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 16:39:50,815 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-12 16:39:50,871 - INFO - root - vcard - Generating QR code for vCard: John Doe
+2026-02-12 16:40:22,840 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-12 16:40:22,846 - INFO - root - url - Generating QR code for URL: https://example.com/
