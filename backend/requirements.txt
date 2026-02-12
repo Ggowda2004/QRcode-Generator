@@ -9,3 +9,4 @@ httpx==0.34.0
 pytest-cov==4.0.0
 coverage==7.2.7 
 pytest-cov==4.0.0
+slowapi

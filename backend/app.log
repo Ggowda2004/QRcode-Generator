@@ -6,3 +6,30 @@
 2026-02-12 16:39:50,871 - INFO - root - vcard - Generating QR code for vCard: John Doe
 2026-02-12 16:40:22,840 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
 2026-02-12 16:40:22,846 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-12 17:27:35,959 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:27:37,924 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 17:28:07,031 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 17:31:26,863 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:28,417 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 17:31:30,049 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:30,052 - WARNING - slowapi - extension - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /
+2026-02-12 17:31:30,073 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-12 17:31:49,804 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:49,812 - WARNING - slowapi - extension - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /
+2026-02-12 17:31:51,190 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:51,269 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:51,645 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:51,907 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 17:31:52,137 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:52,809 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:53,086 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:54,217 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:54,770 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:54,829 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 17:31:55,621 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:56,431 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:57,179 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:57,179 - WARNING - slowapi - extension - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /
+2026-02-12 17:31:58,038 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 17:31:58,038 - WARNING - slowapi - extension - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /
+2026-02-12 17:31:59,567 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
