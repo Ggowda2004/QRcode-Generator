@@ -4,6 +4,7 @@ from app.api.mail import router as mail_router
 from app.api.wifi import router as wifi_router
 from app.utils.logger import logger
 from app.api.vcard import router as vcard_router
+from fastapi.responses import JSONResponse
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
