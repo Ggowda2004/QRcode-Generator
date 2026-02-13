@@ -25,13 +25,18 @@ async def generate_custom_qr(
     - Custom big box selection
     - User-provided center logo (PNG)
     - Default company logo at the bottom
+    The QR code is generated entirely in-memory and returned as a PNG image response.
     """
     try:
         # Parse RGB strings into tuples
         qr_fill_tuple = tuple(int(c.strip()) for c in qr_fill.split(","))
         box_color_tuple = tuple(int(c.strip()) for c in box_color.split(","))
 
-        # Save center logo temporarily if uploaded
+        # When a user uploads a file, it arrives at your server as a stream of binary data (0s and 1s) over an HTTP connection. ->FastAPI (or similar) intercepts these bytes ->The center_logo.file you used is simply a "handle" or a pointer to the start of that memory slice.
+        #When you run Image.open(center_logo.file), Pillow doesn't look for a file on your hard drive. Instead: It reads the bytes directly from the memory buffer,-> finally The Extraction: When you add .convert("RGBA"), Pillow "unpacks" the compressed image data (like ZIP) into a raw pixel map (Red, Green, Blue, Alpha) in a new section of your RAM.
+        #In Python, an object exists in the Heap (RAM).As long as your API request is "alive," that memory is reserved. Once the request finishes and the response is sent, Python's Garbage Collector sees that no one is using that Image object anymore and clears that RAM for the next user.
+
+
         center_logo_img: Optional[Image.Image] = None
         if center_logo:
             center_logo_img = Image.open(center_logo.file).convert("RGBA")

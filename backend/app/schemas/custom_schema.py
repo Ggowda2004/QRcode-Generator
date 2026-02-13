@@ -2,18 +2,13 @@ from pydantic import BaseModel, Field, model_validator
 from enum import Enum
 from typing import Tuple, Optional
 
-# -------------------------
-# Enums for choices
-# -------------------------
 class BoxPosition(str, Enum):
     a = "a"  # all 3
     b = "b"  # top-left
     c = "c"  # top-right
     d = "d"  # bottom-left
 
-# -------------------------
-# QR request schema
-# -------------------------
+#Qr request schema for QR code generation with customizable colors and box positions
 class QRRequest(BaseModel):
     data: str = Field(..., description="Text or URL to encode in QR code")
     qr_fill: Tuple[int, int, int] = Field((0, 0, 0), description="RGB color for normal QR modules")

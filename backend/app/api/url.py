@@ -4,10 +4,13 @@ from app.services.qr import generate_qr_url
 from app.utils.image import create_image_response
 from app.utils.logger import logger
 router = APIRouter(
-    prefix="/url",
-    tags=["QR - URL"]
+    prefix="/url",#prepends with every path dedfined by this router
+    tags=["QR - URL"]#used in documentation in swagger
 )
 
+#By setting the path to an empty string, this endpoint becomes the root of the combined prefixes you've already defined.
+#summary for swagger ui for readability
+#response_description for swagger ui to describe the response content.
 @router.post(
     "",
     summary="Generate QR code for a URL",
