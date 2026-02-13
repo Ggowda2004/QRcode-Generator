@@ -1,35 +1,79 @@
-2026-02-12 16:39:17,693 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 16:39:17,833 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
-2026-02-12 16:39:25,286 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
-2026-02-12 16:39:25,419 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
-2026-02-12 16:39:50,815 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
-2026-02-12 16:39:50,871 - INFO - root - vcard - Generating QR code for vCard: John Doe
-2026-02-12 16:40:22,840 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
-2026-02-12 16:40:22,846 - INFO - root - url - Generating QR code for URL: https://example.com/
-2026-02-12 17:27:35,959 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:27:37,924 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
-2026-02-12 17:28:07,031 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
-2026-02-12 17:31:26,863 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:28,417 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
-2026-02-12 17:31:30,049 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:30,052 - WARNING - slowapi - extension - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /
-2026-02-12 17:31:30,073 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
-2026-02-12 17:31:49,804 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:49,812 - WARNING - slowapi - extension - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /
-2026-02-12 17:31:51,190 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:51,269 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:51,645 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:51,907 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
-2026-02-12 17:31:52,137 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:52,809 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:53,086 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:54,217 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:54,770 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:54,829 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
-2026-02-12 17:31:55,621 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:56,431 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:57,179 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:57,179 - WARNING - slowapi - extension - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /
-2026-02-12 17:31:58,038 - INFO - root - main - {'url': '/', 'method': 'GET'}
-2026-02-12 17:31:58,038 - WARNING - slowapi - extension - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /
-2026-02-12 17:31:59,567 - INFO - root - main - {'url': '/service-worker.js', 'method': 'GET'}
+2026-02-12 22:16:51,090 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 22:16:51,388 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-12 22:16:55,575 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 22:16:55,726 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 22:17:08,351 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:34:32,901 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 22:34:37,389 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 22:34:37,518 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 22:34:46,427 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:36:18,892 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:37:38,922 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:38:31,369 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:39:31,947 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:41:25,187 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 22:41:25,388 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 22:41:51,666 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:43:41,425 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 22:43:41,596 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 22:43:59,303 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:45:47,390 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:46:26,309 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:46:47,849 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 22:55:44,848 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 22:55:48,762 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 22:55:48,874 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 22:56:18,113 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:07:25,897 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 23:07:26,025 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 23:08:22,350 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:08:40,868 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:20:40,562 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-12 23:20:46,348 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-12 23:20:46,519 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-12 23:20:56,993 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:22:07,982 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:22:22,905 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:22:57,729 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:24:08,911 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:25:45,046 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:26:46,794 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:28:05,714 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:29:59,954 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:30:36,338 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:31:27,423 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:32:50,746 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:33:22,768 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:33:56,758 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-12 23:34:45,044 - INFO - root - main - {'url': '/api/v1/custom/custom', 'method': 'POST'}
+2026-02-13 13:49:03,676 - ERROR - fastapi - utils - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2026-02-13 13:49:43,846 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-13 13:49:44,226 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-13 13:49:47,827 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 13:49:48,027 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 13:50:57,711 - INFO - root - main - {'url': '/api/v1/qr/custom/custom-qr', 'method': 'POST'}
+2026-02-13 13:50:57,725 - ERROR - root - custom - Error generating custom QR code: [Errno 2] No such file or directory: '/tmp/cartoon-11551057788bw864qbup7.png'
+2026-02-13 13:51:36,164 - INFO - root - main - {'url': '/api/v1/qr/custom/custom-qr', 'method': 'POST'}
+2026-02-13 13:51:36,204 - ERROR - root - custom - Error generating custom QR code: [Errno 2] No such file or directory: '/tmp/Screenshot 2024-07-19 083229.png'
+2026-02-13 14:27:32,953 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-13 14:27:36,838 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 14:27:36,970 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 14:28:24,554 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 14:28:24,842 - ERROR - root - custom - Error generating custom QR code: generate_qr_image() got an unexpected keyword argument 'qr_fill'
+2026-02-13 14:32:52,668 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-13 14:32:56,753 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 14:32:56,917 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 14:33:10,738 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-13 14:33:10,746 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-13 14:33:52,944 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 14:34:10,307 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 14:35:00,679 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 14:45:40,227 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-13 14:45:43,884 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 14:45:44,061 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 14:46:09,665 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 14:46:09,869 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png

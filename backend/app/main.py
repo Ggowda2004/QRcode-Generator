@@ -3,8 +3,10 @@ from fastapi.responses import JSONResponse
 from app.api.url import router as url_router
 from app.api.mail import router as mail_router
 from app.api.wifi import router as wifi_router
-from app.utils.logger import logger
 from app.api.vcard import router as vcard_router
+from app.api.custom import router as custom_qr_router
+from app.utils.logger import logger
+from fastapi.responses import JSONResponse
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
@@ -47,6 +49,7 @@ app.include_router(wifi_router, prefix="/api/v1/qr")
 
 app.include_router(vcard_router , prefix="/api/v1/qr")
 
+app.include_router(custom_qr_router, prefix="/api/v1/qr")
 
 @app.get("/")
 def home_p():
