@@ -77,3 +77,17 @@ pip install python-multipart
 2026-02-13 14:45:44,061 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
 2026-02-13 14:46:09,665 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
 2026-02-13 14:46:09,869 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-13 20:00:16,440 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-13 20:00:16,697 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-13 20:00:19,908 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 20:00:20,077 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 20:00:30,014 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-13 20:00:30,029 - INFO - root - mail - Generating QR code for email: user@example.com
+2026-02-13 20:03:07,071 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 20:03:07,205 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-13 20:06:40,217 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 20:06:40,376 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-13 20:09:52,848 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-13 20:09:52,869 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-13 20:10:35,486 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-13 20:10:35,669 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}

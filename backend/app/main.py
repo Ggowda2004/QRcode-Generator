@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from app.api.url import router as url_router
 from app.api.mail import router as mail_router
@@ -14,9 +15,18 @@ from slowapi.middleware import SlowAPIMiddleware
 
 app = FastAPI()
 
-# ---------------------------
+# CORS Middleware Setup
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # to be changed later
+    allow_credentials=True,
+    allow_methods=["GET","POST"],
+    allow_headers=["Content-Type"],
+)
+
+
+
 # Global Rate Limiter Setup
-# ---------------------------
 limiter = Limiter(key_func=get_remote_address, default_limits=["10/minute"])
 app.state.limiter = limiter
 
@@ -42,7 +52,7 @@ async def log_middleware(request: Request, call_next):
     return response
 
 app.include_router(url_router, prefix="/api/v1/qr")
-
+#Total Base Path: /api/v1/qr/url
 app.include_router(mail_router,prefix="/api/v1/qr")
 
 app.include_router(wifi_router, prefix="/api/v1/qr")
