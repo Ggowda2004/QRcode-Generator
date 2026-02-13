@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>QR Generator</title>
+
+    <!-- ✅ Connect CSS here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO -->
+    <div class="hero">
+        <h1>All-in-One QR Code Generator</h1>
+        <p>Create QR codes for Links, Email, Phone, Text, vCard and WiFi</p>
+    </div>
+
+    <!-- CARD -->
+    <div class="container">
+
+        <div class="tabs">
+            <button onclick="setType(event,'link')" class="active">Link</button>
+            <button onclick="setType(event,'email')">Email</button>
+            <button onclick="setType(event,'phone')">Phone</button>
+            <button onclick="setType(event,'text')">Text</button>
+            <button onclick="setType(event,'vcard')">vCard</button>
+            <button onclick="setType(event,'wifi')">WiFi</button>
+            <button onclick="goCustom()">Custom QR</button>
+        </div>
+
+        <div id="inputArea"></div>
+
+        <button class="generate" onclick="generateQR()">Generate QR</button>
+
+        <img id="qrImage" />
+        <a id="downloadBtn" download="qrcode.png">Download</a>
+
+    </div>
+
+    <!-- ✅ Connect JS here (VERY IMPORTANT: bottom of body) -->
+    <script src="script.js"></script>
+
+</body>
+</html>
