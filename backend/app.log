@@ -91,3 +91,253 @@ pip install python-multipart
 2026-02-13 20:09:52,869 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
 2026-02-13 20:10:35,486 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
 2026-02-13 20:10:35,669 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 11:49:46,838 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 11:49:46,850 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 11:49:54,616 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 11:50:24,164 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 11:50:24,178 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 11:53:46,471 - INFO - root - main - {'url': '/api/v1/qr', 'method': 'OPTIONS'}
+2026-02-14 11:53:46,494 - INFO - root - main - {'url': '/api/v1/qr', 'method': 'POST'}
+2026-02-14 11:54:59,218 - INFO - root - main - {'url': '/api/v1/qr', 'method': 'POST'}
+2026-02-14 11:55:02,177 - INFO - root - main - {'url': '/api/v1/qr', 'method': 'POST'}
+2026-02-14 11:55:23,321 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 11:59:18,529 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:01:16,065 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 12:01:16,088 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:01:45,877 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:01:45,928 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 12:02:08,957 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'OPTIONS'}
+2026-02-14 12:02:08,968 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 12:02:09,037 - INFO - root - mail - Generating QR code for email: kmggmbm23@gmail.com
+2026-02-14 12:02:18,555 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 12:02:18,585 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:03:56,121 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'OPTIONS'}
+2026-02-14 12:03:56,144 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 12:03:56,161 - INFO - root - vcard - Generating QR code for vCard: kmgg dd
+2026-02-14 12:04:09,880 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'OPTIONS'}
+2026-02-14 12:04:09,892 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 12:04:09,914 - INFO - root - wifi - Generating QR code for WiFi: SSID=maaa, Security=WifiSecurity.WPA
+2026-02-14 12:05:36,626 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:21:22,602 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 12:21:22,794 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-14 12:21:27,498 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:21:27,641 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:21:29,336 - INFO - root - main - {'url': '/socs', 'method': 'GET'}
+2026-02-14 12:21:33,481 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:21:33,618 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:21:40,458 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:23:11,452 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:23:11,613 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:24:05,032 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:24:05,145 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:24:17,925 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:26:13,163 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:26:13,303 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:26:30,370 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:26:30,375 - INFO - root - phone - Generating QR code for phone number: 12345467890
+2026-02-14 12:27:12,405 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:27:12,409 - INFO - root - text - Generating QR code for URL: string
+2026-02-14 12:30:15,401 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:30:15,557 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:30:21,898 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:30:21,905 - INFO - root - phone - Generating QR code for phone number: string
+2026-02-14 12:30:47,408 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:30:47,411 - INFO - root - phone - Generating QR code for phone number: 1234567789
+2026-02-14 12:33:34,325 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:33:34,478 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:33:47,099 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:33:47,105 - INFO - root - phone - Generating QR code for phone number: 1234567890
+2026-02-14 12:34:10,649 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:34:10,657 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 12:34:37,718 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:34:37,727 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 12:35:08,973 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 12:35:09,024 - INFO - root - mail - Generating QR code for email: ur@example.com
+2026-02-14 12:35:29,871 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 12:35:29,876 - INFO - root - vcard - Generating QR code for vCard: John Doe
+2026-02-14 12:36:06,576 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:36:31,143 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 12:36:31,146 - INFO - root - url - Generating QR code for URL: https://leetcode.com/u/7Gkvyc3TAR/
+2026-02-14 12:37:04,319 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:37:04,327 - INFO - root - text - Generating QR code for URL: string
+2026-02-14 12:44:05,087 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 12:44:08,802 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:44:08,956 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:44:25,407 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:44:25,412 - INFO - root - phone - Generating QR code for phone number: 1234567890
+2026-02-14 12:47:31,587 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:47:31,767 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:47:36,603 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:47:36,607 - INFO - root - phone - Generating QR code for phone number: 1234567890
+2026-02-14 12:48:31,975 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:48:31,978 - INFO - root - phone - Generating QR code for phone number: +916360980383
+2026-02-14 12:52:04,614 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:52:04,782 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:52:20,442 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 12:52:20,450 - INFO - root - phone - Generating QR code for phone number: +912345363623
+2026-02-14 12:57:51,020 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 12:57:51,200 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 12:58:13,006 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 12:58:13,046 - INFO - root - text - Generating QR code for text: strin
+2026-02-14 13:00:31,694 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:00:31,831 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:00:35,492 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:00:35,566 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:00:50,358 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:00:50,382 - INFO - root - phone - Generating QR code for phone number: 5165565132
+2026-02-14 13:02:23,334 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:02:23,582 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:02:37,008 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:02:37,026 - INFO - root - phone - Generating QR code for phone number: 1151515155
+2026-02-14 13:02:58,263 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:02:58,270 - INFO - root - phone - Generating QR code for phone number: +911151515155
+2026-02-14 13:04:44,532 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:04:44,552 - INFO - root - phone - Generating QR code for phone number: +911151515155
+2026-02-14 13:07:39,599 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:07:39,791 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:07:51,791 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:07:51,837 - INFO - root - phone - Generating QR code for phone number: 1234234346
+2026-02-14 13:10:25,449 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:10:25,461 - INFO - root - phone - Generating QR code for phone number: 1234234346
+2026-02-14 13:10:47,616 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:10:47,625 - INFO - root - phone - Generating QR code for phone number: +911234234346
+2026-02-14 13:23:44,588 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 13:23:49,007 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:23:49,140 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:24:05,639 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:24:05,664 - INFO - root - phone - Generating QR code for phone number: 1234455665
+2026-02-14 13:24:31,930 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 13:24:31,961 - INFO - root - text - Generating QR code for text: sjibsduh232423rhdoufd0932h
+2026-02-14 13:25:16,063 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:25:16,072 - INFO - root - url - Generating QR code for URL: https://github.com/dishanthj
+2026-02-14 13:26:10,545 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 13:26:10,564 - INFO - root - mail - Generating QR code for email: user@example.com
+2026-02-14 13:26:41,003 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 13:26:41,024 - INFO - root - vcard - Generating QR code for vCard: Jo Doe
+2026-02-14 13:27:34,434 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 13:27:34,548 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 13:30:10,556 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 13:30:14,228 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:30:14,341 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:30:22,225 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:30:22,230 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 13:30:22,231 - ERROR - root - url - Error generating QR code for URL: https://example.com/, error: 'UrlRequest' object has no attribute 'startswith'
+2026-02-14 13:35:26,965 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 13:35:27,189 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-14 13:35:30,653 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:35:30,792 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:35:37,748 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:35:37,780 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 13:37:02,633 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:37:02,735 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:37:06,867 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:37:06,887 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 13:37:51,925 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:37:51,956 - INFO - root - url - Generating QR code for URL: https://en.wikipedia.org/wiki/A
+2026-02-14 13:41:36,339 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:41:36,566 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:41:44,735 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:41:44,760 - INFO - root - url - Generating QR code for URL: https://example.com/
+2026-02-14 13:43:02,669 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:43:02,792 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:43:11,294 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 13:43:11,340 - INFO - root - mail - Generating QR code for email: user@example.com
+2026-02-14 13:45:12,602 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:45:12,780 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:45:18,642 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 13:45:18,665 - INFO - root - mail - Generating QR code for email: user@example.com
+2026-02-14 13:45:34,796 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:45:34,934 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:46:26,962 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 13:46:26,976 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:46:27,023 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 13:46:32,115 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'OPTIONS'}
+2026-02-14 13:46:32,125 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 13:46:32,152 - INFO - root - mail - Generating QR code for email: kmggmbm23@gmail.com
+2026-02-14 13:46:37,399 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 13:46:37,409 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 13:46:51,303 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 13:47:03,654 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'OPTIONS'}
+2026-02-14 13:47:03,664 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 13:47:03,688 - INFO - root - vcard - Generating QR code for vCard: kmgg KMGG
+2026-02-14 13:47:11,224 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'OPTIONS'}
+2026-02-14 13:47:11,241 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 13:47:16,873 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 13:47:16,882 - INFO - root - wifi - Generating QR code for WiFi: SSID=dddd, Security=WifiSecurity.WPA
+2026-02-14 13:50:03,652 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 13:50:03,661 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:50:24,008 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 13:50:24,037 - INFO - root - url - Generating QR code for URL: http://127.0.0.1:5500/frontend/index.html
+2026-02-14 13:50:36,098 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 13:54:12,665 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 13:54:12,957 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 13:54:23,258 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:05:51,747 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 14:05:51,758 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:06:12,414 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 14:06:12,420 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 14:06:12,448 - INFO - root - text - Generating QR code for text: dfdsvsfdffsv
+2026-02-14 14:06:22,348 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'OPTIONS'}
+2026-02-14 14:06:22,363 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 14:06:22,381 - INFO - root - wifi - Generating QR code for WiFi: SSID=dd, Security=WifiSecurity.WPA
+2026-02-14 14:06:30,460 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:15:10,643 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:15:18,462 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 14:15:18,480 - INFO - root - text - Generating QR code for text: sadf
+2026-02-14 14:17:10,186 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 14:17:10,206 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:17:10,216 - INFO - root - phone - Generating QR code for phone number: 1234567654
+2026-02-14 14:21:11,774 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 14:21:11,785 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 14:21:11,830 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 14:24:49,882 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 14:24:49,935 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 14:40:48,205 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 14:40:48,218 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 14:40:48,287 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 14:44:37,708 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 14:44:37,714 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 14:44:37,741 - INFO - root - phone - Generating QR code for phone number: 123456789011
+2026-02-14 14:50:01,599 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 14:50:01,631 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 14:52:45,403 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 14:52:45,410 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 14:52:45,441 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 14:58:01,441 - INFO - root - main - {'url': '/docs', 'method': 'GET'}
+2026-02-14 14:58:01,666 - INFO - root - main - {'url': '/openapi.json', 'method': 'GET'}
+2026-02-14 14:58:19,888 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 14:58:20,020 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 15:12:50,273 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 15:13:25,432 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 15:13:25,477 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 15:14:00,439 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 15:14:00,444 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 15:14:00,488 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=google&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDIGCAIQRRg7MgwIAxAjGCcYgAQYigUyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyCggHEAAYsQMYgAQyCggIEAAYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkxMjkzajBqMTWoAgiwAgHxBX8Nurpzok9m8QV_Dbq6c6JPZg&sourceid=chrome&ie=UTF-8
+2026-02-14 15:14:16,546 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 15:14:16,624 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 15:18:39,971 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 15:18:40,103 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 16:39:01,171 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 16:39:01,532 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-14 16:39:28,353 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 16:39:28,359 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 16:39:28,482 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=vvb&oq=vvb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDk3NmowajE1qAIIsAIB8QWV2t9g_YDpgw&sourceid=chrome&ie=UTF-8
+2026-02-14 16:39:36,187 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'OPTIONS'}
+2026-02-14 16:39:36,190 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 16:39:36,202 - INFO - root - mail - Generating QR code for email: kmgangadhargowda2004@gmail.com
+2026-02-14 16:39:41,815 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 16:39:41,818 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 16:39:41,822 - INFO - root - phone - Generating QR code for phone number: 6360980383
+2026-02-14 16:39:51,504 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 16:39:51,507 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 16:39:51,514 - INFO - root - text - Generating QR code for text: drtfyuipuohgjvjbk
+2026-02-14 16:39:59,076 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'OPTIONS'}
+2026-02-14 16:39:59,079 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 16:39:59,084 - INFO - root - vcard - Generating QR code for vCard: K. GOWDA
+2026-02-14 16:40:16,959 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'OPTIONS'}
+2026-02-14 16:40:16,962 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 16:40:16,966 - INFO - root - wifi - Generating QR code for WiFi: SSID=sdfghuilkjmn, Security=WifiSecurity.WPA
+2026-02-14 16:40:58,779 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 16:40:58,814 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 16:41:24,076 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 16:41:24,096 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=vvb&oq=vvb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDk3NmowajE1qAIIsAIB8QWV2t9g_YDpgw&sourceid=chrome&ie=UTF-8

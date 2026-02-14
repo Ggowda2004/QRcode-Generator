@@ -6,6 +6,8 @@ from app.api.mail import router as mail_router
 from app.api.wifi import router as wifi_router
 from app.api.vcard import router as vcard_router
 from app.api.custom import router as custom_qr_router
+from app.api.phone import router as phone_qr_router
+from app.api.text import router as text_qr_router
 from app.utils.logger import logger
 from fastapi.responses import JSONResponse
 from slowapi import Limiter
@@ -18,7 +20,7 @@ app = FastAPI()
 # CORS Middleware Setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # to be changed later
+    allow_origins=["*"],  # to be changed later
     allow_credentials=True,
     allow_methods=["GET","POST"],
     allow_headers=["Content-Type"],
@@ -27,7 +29,7 @@ app.add_middleware(
 
 
 # Global Rate Limiter Setup
-limiter = Limiter(key_func=get_remote_address, default_limits=["10/minute"])
+limiter = Limiter(key_func=get_remote_address, default_limits=["60/minute"])
 app.state.limiter = limiter
 
 # Add SlowAPI middleware
@@ -50,6 +52,10 @@ async def log_middleware(request: Request, call_next):
     logger.info(log_dict)
     response= await call_next(request)
     return response
+
+app.include_router(phone_qr_router, prefix="/api/v1/qr")
+
+app.include_router(text_qr_router, prefix="/api/v1/qr")
 
 app.include_router(url_router, prefix="/api/v1/qr")
 #Total Base Path: /api/v1/qr/url
