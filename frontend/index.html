@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern QR Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="hero">
+  <h1>Modern QR Code Generator</h1>
+  <p>Create QR codes for Links, Email, Phone, Text, vCard, and WiFi</p>
+</div>
+
+<!-- Card -->
+<div class="container">
+  
+  <!-- Left Column: QR Types + Input + Generate -->
+  <div class="left-col">
+    <div class="tabs">
+      <button onclick="setType(event,'url')" class="active">URL</button>
+      <button onclick="setType(event,'email')">Email</button>
+      <button onclick="setType(event,'phone')">Phone</button>
+      <button onclick="setType(event,'text')">Text</button>
+      <button onclick="setType(event,'vcard')">vCard</button>
+      <button onclick="setType(event,'wifi')">WiFi</button>
+      <button onclick="goCustom()">Custom QR</button>
+    </div>
+    <!-- Dynamic Input Fields -->
+    <div id="inputArea"></div>
+    <!-- Generate button -->
+    <button class="generate" onclick="generateQR()">Generate QR</button>
+  </div>
+
+  <!-- Right Column: QR Preview + Download -->
+  <div class="right-col">
+    <img id="qrImage">
+    <a id="downloadBtn" download="qrcode.png">Download</a>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

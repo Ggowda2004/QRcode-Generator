@@ -18,8 +18,8 @@ router = APIRouter(
 )
 def generate_url_qr(url: UrlRequest):
     try:
-        logger.info(f"Generating QR code for URL: {url.url}")
         img = generate_qr_url(url)
+        logger.info(f"Generating QR code for URL: {url.url}")
         return create_image_response(img)
     except Exception as e:
         logger.error(f"Error generating QR code for URL: {url.url}, error: {str(e)}")

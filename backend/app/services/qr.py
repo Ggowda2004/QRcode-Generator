@@ -11,14 +11,24 @@ def generate_qr_image(data: str):
     return qr.make_image(fill_color="black", back_color="white")
 
 #1
-def generate_qr_url(data: str):
-    return generate_qr_image(data)
+def generate_qr_text(text: str):
+    return generate_qr_image(text)
 
 #2
+def generate_qr_phone(number: str):
+    return generate_qr_image(f"tel:{number}")
+
+#3
+def generate_qr_url(url: str):
+    url = str(url.url)   #handled by converting back to url string from HttpUrl object, this is usually done in the router layer, check out phone router for example
+    return generate_qr_image(url)
+
+#4
 def generate_qr_mail(email: str):
+    email=str(email.email)   #handled by converting back to email string from EmailStr object
     return generate_qr_image(f"mailto:{email}")
 
-#3 (escape sequence with required func)
+#5 (escape sequence with required func)
 def escape_wifi(value: str) -> str:
     #Escapes special characters \, ;, ,, and : as required by MECARD/WiFi standards.
     # Order matters: backslash must be escaped first
@@ -36,7 +46,7 @@ def generate_qr_wifi(security: WifiSecurity, ssid: str, password: str |None=None
 
     return generate_qr_image(wifi_link)
 
-#4
+#6
 def escape_vcard(value: str) -> str:
     """Escapes special characters for vCard format"""
     if value is None:
