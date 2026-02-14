@@ -8,7 +8,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const downloadBtn = document.getElementById("downloadBtn");
 
-const BASE_URL = "http://127.0.0.1:8000/api/v1/qr/custom-qr";
+const BASE_URL = "https://qrcode-generator-18jm.onrender.com/api/v1/qr/custom-qr";
 
 // ------------------ GENERATE ------------------
 async function generate() {
