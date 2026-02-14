@@ -3,7 +3,7 @@ let currentType = "link";
 const inputArea = document.getElementById("inputArea");
 const buttons = document.querySelectorAll(".tabs button");
 
-const BASE_URL = "http://127.0.0.1:8000/api/v1/qr";
+const BASE_URL = "https://qrcode-generator-18jm.onrender.com/api/v1/qr";
 
 /* SWITCH TABS */
 function setType(event, type) {
