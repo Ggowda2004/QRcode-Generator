@@ -317,3 +317,27 @@ pip install python-multipart
 2026-02-14 15:14:16,624 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
 2026-02-14 15:18:39,971 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
 2026-02-14 15:18:40,103 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 16:39:01,171 - INFO - root - main - {'url': '/', 'method': 'GET'}
+2026-02-14 16:39:01,532 - INFO - root - main - {'url': '/favicon.ico', 'method': 'GET'}
+2026-02-14 16:39:28,353 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'OPTIONS'}
+2026-02-14 16:39:28,359 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 16:39:28,482 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=vvb&oq=vvb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDk3NmowajE1qAIIsAIB8QWV2t9g_YDpgw&sourceid=chrome&ie=UTF-8
+2026-02-14 16:39:36,187 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'OPTIONS'}
+2026-02-14 16:39:36,190 - INFO - root - main - {'url': '/api/v1/qr/mail', 'method': 'POST'}
+2026-02-14 16:39:36,202 - INFO - root - mail - Generating QR code for email: kmgangadhargowda2004@gmail.com
+2026-02-14 16:39:41,815 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'OPTIONS'}
+2026-02-14 16:39:41,818 - INFO - root - main - {'url': '/api/v1/qr/phone', 'method': 'POST'}
+2026-02-14 16:39:41,822 - INFO - root - phone - Generating QR code for phone number: 6360980383
+2026-02-14 16:39:51,504 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'OPTIONS'}
+2026-02-14 16:39:51,507 - INFO - root - main - {'url': '/api/v1/qr/text', 'method': 'POST'}
+2026-02-14 16:39:51,514 - INFO - root - text - Generating QR code for text: drtfyuipuohgjvjbk
+2026-02-14 16:39:59,076 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'OPTIONS'}
+2026-02-14 16:39:59,079 - INFO - root - main - {'url': '/api/v1/qr/vcard', 'method': 'POST'}
+2026-02-14 16:39:59,084 - INFO - root - vcard - Generating QR code for vCard: K. GOWDA
+2026-02-14 16:40:16,959 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'OPTIONS'}
+2026-02-14 16:40:16,962 - INFO - root - main - {'url': '/api/v1/qr/wifi', 'method': 'POST'}
+2026-02-14 16:40:16,966 - INFO - root - wifi - Generating QR code for WiFi: SSID=sdfghuilkjmn, Security=WifiSecurity.WPA
+2026-02-14 16:40:58,779 - INFO - root - main - {'url': '/api/v1/qr/custom-qr', 'method': 'POST'}
+2026-02-14 16:40:58,814 - INFO - root - custom_qr - Loading bottom logo from: app/assets/company_logo.png
+2026-02-14 16:41:24,076 - INFO - root - main - {'url': '/api/v1/qr/url', 'method': 'POST'}
+2026-02-14 16:41:24,096 - INFO - root - url - Generating QR code for URL: https://www.google.com/search?q=vvb&oq=vvb&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDk3NmowajE1qAIIsAIB8QWV2t9g_YDpgw&sourceid=chrome&ie=UTF-8
