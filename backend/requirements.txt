@@ -3,3 +3,6 @@ Pillow==12.1.1
 pydantic==2.12.5
 qrcode==8.2
 slowapi==0.1.9
+uvicorn[standard]==0.30.0
+pydantic[email]
+python-multipart
