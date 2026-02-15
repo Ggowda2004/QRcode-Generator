@@ -7,7 +7,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const downloadBtn = document.getElementById("downloadBtn");
 
-const BASE_URL = https://qrcode-generator-18jm.onrender.com/api/v1/qr;
+const BASE_URL = "https://qrcode-generator-18jm.onrender.com/api/v1/qr";
 
 /* SWITCH TYPE */
 function setType(event, type) {
