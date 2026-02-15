@@ -1,0 +1,24 @@
+# Python virtual environments in project
+.env
+.env.*
+.venv
+venv/
+.venv.*
+
+# IDEs / editors
+.vscode/
+
+.cache
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+frontend/
+testing_py/
+
+# Logs
+logs/
+*.log
+
+

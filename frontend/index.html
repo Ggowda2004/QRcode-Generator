@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecureQR | Smart QR Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero fade-section">
+  <h1>SecureQR Generator</h1>
+  <p>Secure. Professional. High-Quality QR Images.</p>
+</section>
+
+<section class="main-container fade-section">
+
+  <div class="left-panel glass">
+
+    <div class="tabs">
+      <button onclick="setType(event,'url')" class="active">URL</button>
+      <button onclick="setType(event,'email')">Email</button>
+      <button onclick="setType(event,'phone')">Phone</button>
+      <button onclick="setType(event,'text')">Text</button>
+      <button onclick="setType(event,'vcard')">vCard</button>
+      <button onclick="setType(event,'wifi')">WiFi</button>
+      <button onclick="setType(event,'custom')">Custom QR</button>
+    </div>
+
+    <div id="inputArea"></div>
+
+    <button class="generate-btn" onclick="generateQR()">Generate QR</button>
+
+  </div>
+
+  <div class="right-panel glass">
+    <img id="qrImage">
+    <canvas id="canvas" width="320" height="320"></canvas>
+    <a id="downloadBtn" download="qrcode.png">Download</a>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
