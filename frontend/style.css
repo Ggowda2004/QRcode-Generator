@@ -18,7 +18,13 @@ body {
   display:flex;
   flex-direction:column;
   align-items:center;
-  padding:40px 20px;
+  padding:32px 16px 40px;
+}
+
+.page-shell {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
 }
 
 /* =========================
@@ -30,7 +36,7 @@ body {
 }
 
 .hero h1 {
-  font-size:42px;
+  font-size:clamp(28px,4vw,42px);
   font-weight:700;
   letter-spacing:-0.5px;
   color:#f1f5f9;
@@ -56,8 +62,9 @@ body {
 .main-container {
   display:flex;
   gap:40px;
-  width:1100px;
-  max-width:100%;
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
 }
 
 /* =========================
@@ -66,7 +73,7 @@ body {
 .left-panel,
 .right-panel {
   flex:1;
-  padding:40px;
+  padding:32px 32px 36px;
 }
 
 /* =========================
@@ -74,7 +81,7 @@ body {
 ========================= */
 .tabs {
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(2,minmax(0,1fr));
   gap:15px;
   margin-bottom:30px;
 }
@@ -212,6 +219,60 @@ canvas {
 @media(max-width:900px){
   .main-container{
     flex-direction:column;
+  }
+
+  .left-panel,
+  .right-panel {
+    padding:24px 20px 28px;
+  }
+}
+
+@media(max-width:640px){
+  body {
+    padding:20px 12px 32px;
+  }
+
+  .hero {
+    margin-bottom:32px;
+  }
+
+  .tabs {
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:10px;
+  }
+
+  .tabs button {
+    padding:10px;
+    font-size:13px;
+  }
+
+  #inputArea input,
+  #inputArea textarea,
+  #inputArea select {
+    padding:12px;
+    margin-bottom:12px;
+  }
+
+  .generate-btn {
+    padding:14px;
+  }
+
+  #qrImage,
+  canvas {
+    width:220px;
+    max-width:100%;
+  }
+}
+
+@media(max-width:420px){
+  .tabs {
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+
+  .tabs button {
+    flex:1 1 calc(50% - 8px);
   }
 }
 
